@@ -1,6 +1,6 @@
 These files include my code from my project on predicting the susceptibility of protein sites to oxidation at the University of Copenhagen. This project spanned ~2.5 months, from June to August. I intend to use ESM embeddings for the equivariant graph neural network when the semester cools down a bit :)  
 
-data_processing: Clean dataset to ensure that it matches the information in PDB files. Extract corresponding PDB files from RSCB, then extract relevant alpha carbon coordinates and residue information. Format so that PDB information can be passed into ProteinMPNN and ESM models.  
+data_processing: Clean dataset to ensure that it matches the information in PDB files. Extract corresponding PDB files from RSCB, then extract relevant alpha carbon coordinates of residues and residue information. Format so that PDB information can be passed into ProteinMPNN and ESM models.  
 
 egnn: Contains eGNN model and training, test, validation code. Not in repository since I adapted proprietary code from my lab. 
 
